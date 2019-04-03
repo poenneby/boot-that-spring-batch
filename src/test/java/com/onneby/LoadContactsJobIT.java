@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = {TestJobConfiguration.class})
+@SpringBootTest(classes = {TestJobConfiguration.class, LoadContactsJobConfiguration.class})
 public class LoadContactsJobIT {
 
     @Autowired
